@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BANK GURU" parallel="false">
+  <test name="Run on Chorme">
+    <classes>
+  
+      <class name="com.bankguru.user.User_01_RegisterAndLoginToSystem_Level2"/>      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

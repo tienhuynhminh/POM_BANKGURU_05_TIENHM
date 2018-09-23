@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BANK GURU]">
+  <test name="Run on Chorme(failed)">
+    <classes>
+      <class name="com.bankguru.user.User_01_RegisterAndLoginToSystem_Level2">
+        <methods>
+          <include name="afterClass"/>
+          <include name="TC_02_Login"/>
+          <include name="beforeClass"/>
+          <include name="TC_01_Rigister"/>
+        </methods>
+      </class> <!-- com.bankguru.user.User_01_RegisterAndLoginToSystem_Level2 -->
+    </classes>
+  </test> <!-- Run on Chorme(failed) -->
+</suite> <!-- Failed suite [BANK GURU] -->
