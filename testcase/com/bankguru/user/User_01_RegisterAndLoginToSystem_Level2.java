@@ -30,7 +30,7 @@ public class User_01_RegisterAndLoginToSystem_Level2 {
 	  loginurl = abstractPage.getCurrentPageUrl(driver);
 	  
 	  abstractPage.clickToElement(driver, "//a[text()='here']");
-	  System.out.print("Okie 1");
+	  
 	  
 	  abstractPage.waitForControlVisible(driver, "//input[@name='emailid']");
 	  System.out.print("Okie 2");
@@ -53,7 +53,7 @@ public class User_01_RegisterAndLoginToSystem_Level2 {
   public void TC_02_Login() {	  
 	  
 	  abstractPage.openAnyUrl(driver, loginurl);
-	  System.out.print("Okie 7");
+	  
 	  
 	  abstractPage.waitForControlVisible(driver, "//input[@name='uid']");
 	  System.out.print("Okie 8");
